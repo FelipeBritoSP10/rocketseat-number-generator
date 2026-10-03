@@ -21,13 +21,10 @@
 - [Tecnologias](#️-tecnologias-utilizadas)
 - [Como executar](#-como-executar)
 - [Como usar](#-como-usar)
-- [Regras de validação](#-regras-de-validação)
 - [Arquitetura](#-arquitetura)
 - [Estrutura de pastas](#-estrutura-de-pastas)
-- [Roadmap](#-roadmap)
 - [Contribuindo](#-contribuindo)
 - [Licença](#-licença)
-- [Autor](#-autor)
 
 ---
 
@@ -175,7 +172,7 @@ Distribuído sob a licença **MIT**. Consulte o arquivo [`LICENSE`](./LICENSE) p
 
 Feito com 💜 por **Felipe Brito**
 
-[![GitHub](https://img.shields.io/badge/GitHub-seu--usuario-181717?style=flat&logo=github)](https://github.com/FelipeBritoSP10)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-seu--perfil-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/felipe-brito-09a355285/)
+[![GitHub](https://img.shields.io/badge/GitHub-FelipeBritoSP10-181717?style=flat&logo=github)](https://github.com/FelipeBritoSP10)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Brito-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/felipe-brito-09a355285/)
 
 <p align="center">⭐ Se este projeto foi útil, deixe uma estrela no repositório!</p>
