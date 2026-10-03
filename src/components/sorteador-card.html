@@ -1,0 +1,45 @@
+<div class="card-sorteador p-4 p-md-5 rounded-4">
+    <!-- Vista do Formulário -->
+    <div id="form-view">
+        <h3 class="fw-bold mb-2 fs-5">QUERO SORTEAR:</h3>
+        <p class="small mb-4 text-light opacity-75">Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela.</p>
+
+        <div class="row g-3 mb-4">
+            <div class="col-4">
+                <label for="quantidade" class="form-label text-uppercase small fw-bold">Números</label>
+                <input type="number" class="form-control text-center input-custom" id="quantidade" value="2" min="1">
+            </div>
+            <div class="col-4">
+                <label for="minimo" class="form-label text-uppercase small fw-bold">De</label>
+                <input type="number" class="form-control text-center input-custom" id="minimo" value="1">
+            </div>
+            <div class="col-4">
+                <label for="maximo" class="form-label text-uppercase small fw-bold">Até</label>
+                <input type="number" class="form-control text-center input-custom" id="maximo" value="100">
+            </div>
+        </div>
+
+        <div class="form-check form-switch mb-4 d-flex align-items-center gap-2">
+            <input class="form-check-input m-0" type="checkbox" role="switch" id="naoRepetir">
+            <label class="form-check-label small" for="naoRepetir">Não repetir número</label>
+        </div>
+
+        <div id="mensagem-erro" class="alert alert-custom-error d-none py-2 px-3 small mb-3" role="alert"></div>
+
+        <button id="btn-sortear" class="btn btn-purple w-100 py-3 fw-bold text-white text-uppercase">
+            Sortear &rarr;
+        </button>
+    </div>
+
+    <!-- Vista dos Resultados -->
+    <div id="resultado-view" class="d-none text-center py-3">
+        <span class="badge-online text-uppercase mb-3 d-inline-block">Resultado do Sorteio</span>
+        <h3 class="fw-bold mb-4 fs-5">OS NÚMEROS SORTEADOS SÃO:</h3>
+        
+        <div id="numeros-container" class="d-flex flex-wrap justify-content-center gap-3 mb-4"></div>
+
+        <button id="btn-voltar" class="btn btn-outline-light px-4 py-2 text-uppercase fw-bold small rounded-pill">
+            &larr; Sortear Novamente
+        </button>
+    </div>
+</div>
